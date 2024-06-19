@@ -1,0 +1,43 @@
+#title{
+    color: white;
+}
+#body{
+    background-color: black;
+}
+.maincontent{
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(224, 3, 139);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 14%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    width: fit-content;
+}
+.txt{
+    color: white;
+}
+.maincontent:hover{
+    cursor: pointer;
+    animation: gradientfade 1s linear 1 forwards;
+    background: radial-gradient(circle, rgb(224, 3, 139), rgb(136, 0, 255));
+}
+@keyframes gradientfade {
+    0% {
+      background: radial-gradient(circle, rgba(224, 3, 139, 0.50), rgb(136, 0, 255, 0.50));
+    }
+    25% {
+      background: radial-gradient(circle, rgba(224, 3, 139, 0.625), rgb(136, 0, 255, 0.625));
+    }
+    50% {
+      background: radial-gradient(circle, rgba(224, 3, 139, 0.75), rgb(136, 0, 255, 0.75));
+    }
+    75% {
+      background: radial-gradient(circle, rgba(224, 3, 139, 0.875), rgb(136, 0, 255, 0.875));
+    }
+    100% {
+      background: radial-gradient(circle, rgb(224, 3, 139), rgb(136, 0, 255));
+    }
+  }
+  
